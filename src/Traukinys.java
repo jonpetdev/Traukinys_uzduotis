@@ -52,7 +52,7 @@ public class Traukinys implements Veiksmai{
         }
 
     }
-
+//rr
 
     public void vaziuoti(){
         System.out.println("Važiuoja į: "+(stotele[stotelesCount]+1));
