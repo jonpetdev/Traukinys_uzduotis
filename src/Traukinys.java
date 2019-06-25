@@ -53,6 +53,7 @@ public class Traukinys implements Veiksmai{
 
     }
 
+
     public void vaziuoti(){
         System.out.println("Važiuoja į: "+(stotele[stotelesCount]+1));
         traukinioBusena =2;
