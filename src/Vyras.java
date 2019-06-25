@@ -28,7 +28,7 @@ public class Vyras extends Keleiviai{
     @Override
     public String toString() {
 
-        return " Vardas" + this.getVardas() + " Pavarde:" + this.getPavarde() + " Metai:" + this.getMetai()
+        return " Vardas:" + this.getVardas() + " Pavarde:" + this.getPavarde() + " Metai:" + this.getMetai()
                 + " Lytis:" + this.getLytis() + " Krutines dydis:" + this.getFaloDydis();
     }
 }

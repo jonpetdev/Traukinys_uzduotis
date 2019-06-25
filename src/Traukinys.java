@@ -62,9 +62,9 @@ public class Traukinys implements Veiksmai{
     public void gautiKeleiviuSarasa(){
         for(int i=0;i<list.size();i++){
             if(list.get(i) instanceof Moteris){
-                System.out.println("Sk:"+ list.get(i)+" "+list.get(i));
+                System.out.println("Sk:"+ list.indexOf(i)+" "+list.get(i));
             }else if(list.get(i) instanceof Vyras){
-                System.out.println("Sk:"+ list.get(i)+" "+list.get(i));
+                System.out.println("Sk:"+ list.indexOf(i)+" "+list.get(i));
             }
         }
 
